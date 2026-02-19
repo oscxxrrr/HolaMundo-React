@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.css'
 import App from './components/App.tsx'
 import List from './components/List.tsx'
 import HolaReact from './components/HolaReac.tsx'
+import Ods from './components/ods.tsx'
 
 
 createRoot(document.getElementById('root')!).render(
@@ -11,5 +12,6 @@ createRoot(document.getElementById('root')!).render(
     <App />
     <HolaReact />
     <List />
+    <Ods />
   </StrictMode>,
 )
